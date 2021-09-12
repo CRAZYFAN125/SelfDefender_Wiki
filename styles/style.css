@@ -4,11 +4,22 @@
 body{
     background-color: rgba(109, 109, 109, 0.432);
 }
+footer{
+    min-width: 600px;
+    max-width: 1000px;
+    max-height: max-content;
+    border-top: black solid 5px;
+    padding-top: 1px;
+    padding-bottom: 2mm;
+    background-color: aquamarine;
+    margin: 60px auto;
+    font-size: large;
+    text-align: center;
+}
 #Main{
     min-width: 600px;
     max-width: 1000px;
     max-height: max-content;
-    padding-bottom: 50px;
     background-color: aquamarine;
     margin: 60px auto;
 }
@@ -27,9 +38,15 @@ img.left{
     font-size: 20px;
     
     margin-bottom: 50px;
+    padding: 1px 4px 32px;
 
     border: gray solid 2px;
     border-radius: 10%;
+}
+.maly{
+    float: left;
+    border-radius: 0% 20% 20%;
+    min-width: 40px;
 }
 
 #_StartText{
