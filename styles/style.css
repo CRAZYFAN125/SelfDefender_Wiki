@@ -1,14 +1,46 @@
+*{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
 body{
-    background-color: rgba(163, 163, 163, 0.432);
+    background-color: rgba(109, 109, 109, 0.432);
 }
 #Main{
     min-width: 600px;
     max-width: 1000px;
     max-height: max-content;
+    padding-bottom: 50px;
     background-color: aquamarine;
     margin: 60px auto;
 }
-#Header{
+#MainHeader{
     text-align: center;
+    font-family: 'Oswald', sans-serif;
+    border-bottom: gray solid 2px;
+}
+img.left{
+    float: left;
+    border-radius: 0% 20% 20%;
+    max-width: 50px;
+}
+.text{
+    text-align: justify;
+    font-size: 20px;
     
+    margin-bottom: 50px;
+
+    border: gray solid 2px;
+    border-radius: 10%;
+}
+
+#_StartText{
+    text-align: center;
+    margin: 4px;
+}
+.link{
+    color: blue;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.link:hover{
+    color:blueviolet;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
